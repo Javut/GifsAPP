@@ -1,0 +1,10 @@
+<!-- #txtBuscar es una referencia local a la caja de texto que quiero emplear para buscar -->
+
+<h5>Buscar: </h5>
+<input
+  type="text"
+  class="form-control"
+  placeholder="Buscar Gifs..."
+  #txtBuscar
+  (keyup.enter)="buscar()"
+>
